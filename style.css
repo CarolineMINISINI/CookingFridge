@@ -1,0 +1,255 @@
+@font-face{
+	font-family: 'LearningCurveProRegular';
+	src: url('LearningCurve_OT-webfont.eot');
+	src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('LearningCurve_OT-webfont.woff') format('woff'),
+		 url('LearningCurve_OT-webfont.ttf') format('truetype'),
+		 url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+body
+{
+	background: url("https://lh6.googleusercontent.com/-2DTsz_powk0/VWD4MuTfZyI/AAAAAAAAAXs/xZ6o40FgJhg/w905-h509-no/Image2.png") fixed no-repeat;
+	background-position: center center;
+	background-size:cover;
+	font-family: Andalus, Arial, serif;
+	font-size: 16px;
+}
+
+h1
+{
+	font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size: 90px;
+	text-align: center;
+	color: #FF7F50;
+	font-weight: bold;
+}
+
+h2
+{
+	font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size: 50px;
+	text-align: center;
+	color: #810091;
+	font-weight: bold;
+}
+
+h3
+{
+	font-family: Andalus, Arial, serif;
+}
+
+h4
+{
+	font-family: Andalus, Arial, serif;
+}
+
+.row
+{
+margin-right:12.5%;
+margin-left: 12.5%;
+}
+
+
+#menu
+{
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid white;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	padding: 0%;
+	border-radius: 10px;
+}
+
+.onglet1
+{
+	border-right: 5px solid white;
+	font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size: 40px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.onglet2
+{
+	font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size: 40px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.nounder
+{
+	text-decoration:none;
+	font-weight: bold;
+	color: #FF7F50;
+}
+
+.nounder:hover
+{
+	text-decoration:none;
+	font-weight: bold;
+	color: #810091;
+
+}
+
+
+.presentation
+{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	text-align: justify;
+	border: 3px solid #FF7F50;
+	padding: 1%;
+	margin-right: 15%;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.ajout
+{
+	width: 50%;
+	float: right;
+	border: 3px solid #FF7F50;
+	padding: 1%;
+	margin-top: 1%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.recette
+{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	text-align: justify;
+	border: 3px solid #FF7F50;
+	padding: 1%;
+	margin-right: 15%;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.IngCat
+{
+	font-weight: bold;
+}
+
+.MesIng
+{
+	margin-left: 30px;
+}
+
+.NomRecette
+{
+	width: 60%
+}
+
+.AjoutRecette
+{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+.Desc
+{
+	vertical-align: top;
+}
+
+.Description
+{
+	margin-top: 10px;
+}
+
+.Remarque
+{
+	margin-top: 10px;
+}
+
+.checkbox-inline
+{
+	width: 30%;
+}
+
+.checkbox-inline
+{
+	margin-left: 10px;
+}
+
+.Catégorie
+{
+	font-family: 'Monotype Corsiva', Arial, serif;
+	color: #000000;
+	text-decoration: none;
+	font-size: 23px;
+}
+
+.Catégorie:hover
+{
+	text-decoration: underline;
+	color: #000000;
+	font-weight: bold;
+}
+
+.Rechercher
+{
+	font-weight: bold;
+	padding: 1%;
+}
+
+nav
+{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid white;
+	padding: 1%;
+	margin-left: 10%;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+footer
+{
+	width: 90%;
+	background-color: rgba(255,127,80,0);
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 10%;
+}
+
+.Contact
+{
+	text-decoration: underline;
+	color: #FF7F50;
+	font-style: italic;
+}
+
+.Recettes
+{
+	text-decoration: underline;
+	color: #FF7F50;
+	font-style: italic;
+}
+
+.Contact:hover
+{
+	color: #810091;
+}
+
+.Recettes:hover
+{
+	color: #810091;
+}
+
+.imageflottante
+{
+	float:right;
+}
