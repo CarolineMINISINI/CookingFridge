@@ -1,3 +1,0 @@
-<?php include("Presentation.php")?>
-				
-		<?php include("AjoutIngredient.php")?>
