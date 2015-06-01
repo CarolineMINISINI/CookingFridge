@@ -13,7 +13,7 @@ body
 	background-position: center center;
 	background-size:cover;
 	font-family: Andalus, Arial, serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 h1
@@ -61,6 +61,7 @@ margin-left: 12.5%;
 	margin-left: 10%;
 	padding: 0%;
 	border-radius: 10px;
+	background-color: rgba(255,255,255,0.4);
 }
 
 .onglet1
@@ -69,7 +70,6 @@ margin-left: 12.5%;
 	font-family: 'LearningCurveProRegular', Arial, serif;
 	font-size: 40px;
 	text-align: center;
-	background-color: rgba(255,255,255,0.4);
 }
 
 .onglet2
@@ -77,7 +77,6 @@ margin-left: 12.5%;
 	font-family: 'LearningCurveProRegular', Arial, serif;
 	font-size: 40px;
 	text-align: center;
-	background-color: rgba(255,255,255,0.4);
 }
 
 .nounder
@@ -95,7 +94,6 @@ margin-left: 12.5%;
 
 }
 
-
 .presentation
 {
 	width: 50%;
@@ -106,6 +104,7 @@ margin-left: 12.5%;
 	border: 3px solid #FF7F50;
 	padding: 1%;
 	margin-right: 15%;
+	margin-bottom: 2%;
 	border-radius: 10px;
 	background-color: rgba(255,255,255,0.4);
 }
@@ -116,11 +115,30 @@ margin-left: 12.5%;
 	float: right;
 	border: 3px solid #FF7F50;
 	padding: 1%;
-	margin-top: 1%;
 	margin-right: 15%;
 	margin-bottom: 2%;
 	border-radius: 10px;
 	background-color: rgba(255,255,255,0.4);
+}
+
+.alphalien
+{
+	margin-right: 8px;
+	text-decoration: none;
+	color: #FF7F50;
+}
+
+.alphalien:hover
+{
+	margin-right: 8px;
+	text-decoration: none;
+	color: #810091;
+}
+
+.alpha
+{
+	display: inline-block;
+	text-align: center;
 }
 
 .recette
@@ -147,30 +165,21 @@ margin-left: 12.5%;
 	margin-left: 30px;
 }
 
-.NomRecette
-{
-	width: 60%
-}
 
 .AjoutRecette
 {
 	margin-top: 1%;
-	margin-left: 2%;
+	margin-left: 2px;
 }
 
 .Desc
 {
-	vertical-align: top;
+	vertical-align:top;
 }
 
-.Description
+.precision
 {
-	margin-top: 10px;
-}
-
-.Remarque
-{
-	margin-top: 10px;
+	font-size:13px;
 }
 
 .checkbox-inline
@@ -194,6 +203,19 @@ margin-left: 12.5%;
 .Catégorie:hover
 {
 	text-decoration: underline;
+	color: #000000;
+	font-weight: bold;
+}
+
+.lien
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.lien:hover
+{
+	text-decoration: none;
 	color: #000000;
 	font-weight: bold;
 }
@@ -252,4 +274,15 @@ footer
 .imageflottante
 {
 	float:right;
+}
+
+.trait
+{
+	border-color: #FF7F50;
+}
+
+.grasoul
+{
+	font-weight: bold;
+	text-decoration: underline;
 }

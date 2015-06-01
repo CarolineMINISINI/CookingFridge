@@ -3,8 +3,6 @@
 	<head>
 		<meta charset="utf-8"/>
 		<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-		<script type="text/javascript" src="scripts/fonctions_utiles.js"></script>
-		<script type="text/javascript" src="scripts/autocompletion.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -24,11 +22,24 @@
 		
 		<?php include("menu.php")?>
 		
-		<?php include("Presentation.php")?>
+		<?php if (!isset($_GET['recettes']))		// Si on est à l'accueil, on affiche la section présentation qui contient "Voir toutes les recettes"
+		{
+			include("Presentation.php");
+		}
+		else										// Sinon, on affiche la section pour voir toutes les recettes
+		{
+			echo '<section class="presentation"><h3>Voir toutes les recettes</h3><a class="Recettes" href="LesRecettes.php?Tout">Cliquez ici</a></section>';
+		}?>
 		
 		<?php include("AjoutIngredient.php")?>
 
 		<?php include("navig.php")?>
+		
+		<?php if (isset($_GET['mailok']))			// Si le client a réussi l'envoi de son mail, on affiche une alerte pour le lui signaler
+		{
+			echo "<script type='text/javascript'>alert('Votre proposition de recette a bien été soumise. Nous vous remercions pour votre participation, et étudions votre demande.')</script> !</p>";
+		}
+		?>
 						
 		<?php include("footer.php")?>
 	</body>
